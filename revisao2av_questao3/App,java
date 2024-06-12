@@ -1,0 +1,19 @@
+package com.example;
+
+/**
+ Crie uma classe chamada "Carro" com os atributos modelo, cor e ano. 
+ Em seguida, crie um objeto dessa classe chamado "meuCarro" e defina seus atributos.
+ */
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+        Carro meuCarro = new Carro ("Ford", "Branco", 2002);
+
+        System.out.println(meuCarro.getModelo());
+        System.out.println(meuCarro.getCor());
+        System.out.println(meuCarro.getAno());
+
+    }
+}
